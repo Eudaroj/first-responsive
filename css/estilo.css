@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+#header-logo{
+    width: 100%;
+}
+
+#header-logo img{
+    display: block;
+    margin: 5px auto;
+}
+
+#header-menu ul{
+    list-style: none;
+    color: white;
+    background-color: rgb(98, 51, 139);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#header-menu ul li{
+    padding: 15px;
+    font-size: 20px;
+}
+
+#header-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+#header-menu a:hover{
+    background-color:rgba(98, 51, 139, 0.507);
+}
