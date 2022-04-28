@@ -7,7 +7,10 @@
     <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/018cb30891.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -34,56 +37,56 @@
         </nav>
     </header>
 
-    <section class="description">
+    <section class="bg-description">
+        <div class="description">
+        <i class="fa-solid fa-circle-chevron-right"></i>
         <h1>A exciting new venture over the range</h1>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua consectetur adipisicing elit.</p>
 
-        <a href="#"><input type="button" value="Get Started" class="button"></input></a>
+        <a href="#" title="Get Started" class="button">Get Started</a>
+        </div>
     </section>
 
 
+    <div class="bg-main-infos">
+        <section class="main-infos row max-width">
+            <article class="col-2 col-4">
+                <i class="fa-solid fa-stopwatch"></i>
+                <h1>Designer Guff</h1>
 
-    <section class="main-infos">
+                <P>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</P>
+            </article>
+
+            <article class="col-2 col-4">
+                <i class="fa-solid fa-chart-column"></i>
+                <H1>Detaild Stats</H1>
+
+                <P>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</P>
+            </article>
+
+            <article class="col-2 col-4">
+                <i class="fa-solid fa-clock"></i>
+                <h1>Dashboard</h1>
+
+                <P>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</P>
+            </article>
+
+            <article class="col-2 col-4">
+                <i class="fa-solid fa-gear"></i>
+                <h1>Development</h1>
+
+                <P>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</P>
+            </article>
+        </section>
+    </div>
+
+
+    <section class="design-infos max-width">
         <article>
 
-            <h2>Designer Guff</h2>
-
-            <P>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</P>
-
-        </article>
-
-        <article>
-
-            <H2>Detaild Stats</H2>
-
-            <P>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</P>
-
-        </article>
-
-        <article>
-
-            <H2>Dashboard</H2>
-
-            <P>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</P>
-
-        </article>
-
-        <article>
-
-            <H2>Development</H2>
-
-            <P>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</P>
-
-        </article>
-    </section>
-
-
-    <section class="design-infos">
-        <article>
-
-            <h3>Designg Heading</h3>
+            <h1>Designg Heading</h1>
 
             <p>
                 Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -94,7 +97,7 @@
 
         <article>
 
-            <h3>Designg Trends</h3>
+            <h1>Designg Trends</h1>
 
             <p>
                 Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -105,26 +108,26 @@
 
         <article>
 
-            <h3>Designg Users</h3>
+            <h1>Designg Users</h1>
 
             <p>
                 Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                 irure dolor in reprehenderit in voluptate velit esse cillum
             </p>
 
-        <a href="#"><input type="button" value="Get Started" class="button"></input></a>
+            <a href="#" title="Get Started" class="button button-ext">Get Started</a>
         </article>
 
         <article>
 
-            <h3>Designg Goals</h3>
+            <h1>Designg Goals</h1>
 
             <p>
                 Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                 irure dolor in reprehenderit in voluptate velit esse cillum
             </p>
 
-        <a href="#"><input type="button" value="Buy Now" class="button"></input></a>
+        <a href="#" title="Buy Now" class="button button-ext">Buy Now</a>
         
         </article>
 
@@ -132,11 +135,20 @@
 
 
     <footer>
-
-        Copyright The Range
-
-        Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum
+        <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+        </div>
+        <div class="footer-content">
+            
+            <p>Copyright The Range</p>
+            <p>
+                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum
+            </p>
+        </div>
 
     </footer>
 
