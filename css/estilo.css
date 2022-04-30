@@ -235,11 +235,11 @@ footer{
 
     @media screen and (min-width: 1184px) {
         #header-logo img{
-            margin-left: 400px;
+            margin-left: 250px;
         }
 
         #header-menu ul{
-            right: 400px;
+            margin-right: 250px;
         }
 
         .bg-description{
